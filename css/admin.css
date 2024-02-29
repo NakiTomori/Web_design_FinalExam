@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: skyblue;
+    line-height: 70px;
+    padding-left: 30px;
+
+}
+
+a,a:hover{
+    text-decoration: none!important;
+}
+
+.logout{
+    float: right;
+    padding-right: 30px;
+}
+
+ul{
+    background-color: grey;
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+
+.content{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.label_race_add{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.race_add_form{
+    background-color: rgb(97, 97, 97);
+    width: 500px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
